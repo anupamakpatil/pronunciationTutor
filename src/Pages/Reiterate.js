@@ -277,7 +277,7 @@ const Reiterate = () => {
                 <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#000' }}>Press the button to hear the word:</Text>
               <TouchableOpacity onPress={() => speak(word)}>
                 <View style={{ padding: 10, alignItems: 'center' }}>
-                  <Ionicons name="ios-play-circle" size={30} color={Colors.primary} />
+                  <Ionicons name="ios-play-circle" size={40} color={Colors.primary} />
         {/* <Button title="Press to hear some words" onPress={speak} /> */}
                 </View>
               </TouchableOpacity>
